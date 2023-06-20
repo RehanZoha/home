@@ -1,0 +1,491 @@
+/*add background image for home */
+#home-back {
+
+
+  background-image: url("images/water.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*for all headings of each page*/
+h1 {
+  font-family: Copperplate;
+  font-size: 90px;
+  padding: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+/*border attributes and filter for background of every heading*/
+.title {
+  filter: contrast(0.8);
+  border: 100px groove;
+  border-width: thick;
+  border-radius: 900px;
+}
+
+
+/*nav bar styling*/
+
+
+/*add background color to the navigation */
+.navigation {
+  background-color: #4e984e;
+  overflow: hidden;
+}
+
+
+.navigation {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: rgb(214, 186, 186);
+}
+
+.navigation a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+/* end of styling for navigation */
+
+
+.block {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  /* Adjust the margin value as needed */
+}
+
+
+.block img {
+  max-width: 200px;
+  /* Adjust the width of the icon as needed */
+}
+
+
+
+
+/*style all subheadings with the same class*/
+.subheading {
+  text-align: center;
+  font-size: 40px;
+  font-family: Copperplate;
+  color: #ffffff;
+}
+
+
+/*table styling*/
+
+
+.intro {
+  text-align: center;
+  /* Keep the text centered */
+  font-size: 20px;
+  font-family: 'Copperplate';
+  color: #f6f7f7;
+  border: 6px solid #ffffff;
+  border-radius: 8px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(92, 112, 133, 0.692);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Keep the content centered horizontally */
+  padding: 10px;
+  position: relative;
+}
+
+
+.table {
+  margin-left: 300px;
+  /* Adjust the left margin as desired to move the table to the left */
+}
+
+
+
+
+/*image next to table styling*/
+
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  right: -13%;
+  transform: translateY(-50%);
+  width: 50%;
+  /* Adjust the width of the image as desired */
+  height: auto;
+}
+
+
+/*character ------------ */
+
+
+#character-back {
+  background-image: url("images/cave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*border attributes and filter for background of every heading*/
+.title {
+  filter: contrast(0.8);
+  border: 100px groove;
+  border-width: thick;
+  border-radius: 900px;
+}
+
+
+
+
+/*page icon */
+
+
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  /* Adjust the width as per your requirement */
+  height: 50vh;
+  /* Adjust the height as per your requirement */
+}
+
+
+
+
+/* subheading "Characters" styling */
+.subheading2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Copperplate;
+  color: #fffefe;
+}
+
+
+/* table styling */
+
+
+table {
+  border: 5px solid;
+  border-collapse: collapse;
+  font-family: Copperplate;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+
+thead {
+  background-color: #5d9db2;
+}
+
+
+tbody {
+  background-color: transparent;
+}
+
+
+tbody tr {
+  background-color: #8d8caeb4;
+}
+
+
+
+
+ttable {
+  border-collapse: collapse;
+  width: 200%;
+}
+
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+thead {
+  background-color: #76afff;
+  color: #ffffff;
+}
+
+
+
+
+.image-cell {
+  width: 100px;
+  text-align: center;
+}
+
+
+.image-cell img {
+  max-width: 100%;
+  max-height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(166, 191, 255, 0.3);
+}
+
+
+.description-cell {
+  font-size: 20px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+
+table {
+  border: 2px solid #a0cdff;
+}
+
+
+th,
+td {
+  border-bottom: 2px solid #a5b9ff;
+}
+
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+/* exploration styling */
+
+
+#exploration-back {
+  background-image: url("images/exploration.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+img {
+  width: 50%;
+  height: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+h3 {
+  margin: 0;
+}
+
+
+p {
+  margin-top: 5px;
+}
+
+/* styling for Ocean Exploration, Cave Exploration, and Nether Exploration sections */
+section ul li div h3 {
+  color: rgb(91, 59, 4);
+  /* change the font color */
+  font-size: 24px;
+  /* change the font size */
+  font-family: Copperplate;
+  /* change the font family */
+  background-color: #f0b534;
+}
+
+/* styling for Treasure Hunting section */
+.treasure-hunting-section ul li div h3 {
+  color: rgb(91, 59, 4);
+  /* Change the font color */
+  font-size: 24px;
+  /* Change the font size */
+  font-family: Copperplate;
+  /* Change the font family */
+}
+
+/* Styling for Landmarks section */
+.landmarks-section ul li div h3 {
+  color: rgb(91, 59, 4);
+  /* Change the font color */
+  font-size: 24px;
+  /* Change the font size */
+  font-family: Copperplate;
+  /* Change the font family */
+}
+
+section p {
+  font-family: Copperplate;
+  /* Set the font family */
+  font-size: 18px;
+  /* Set the font size */
+  color: #ffffff;
+  /* Set the font color */
+  line-height: 1.5;
+  /* Set the line height for better readability */
+  margin-bottom: 10%;
+  /* Add some spacing at the bottom of each paragraph */
+  background-color: #3065c08a;
+}
+
+
+
+
+
+/*!----------- biomes styling ----*/
+
+
+#biomes-back {
+  background-image: url("images/house.png");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+#hover-title {
+  font-size: 45px;
+  font-family: Copperplate;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3b6a9d;
+}
+
+
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 600px;
+  height: 300px;
+  margin: 20px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  position: relative;
+}
+
+
+.container:hover .image {
+  transform: scale(1.1);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: rgba(97, 98, 144, 0.8);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.text {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  font-family: Copperplate;
+}
+
+
+/* end poem styling*/
+
+
+#end_poem-back {
+  background-image: url("images/blocks.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* subheading "Characters" styling */
+.subheading4 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Copperplate;
+  color: #ffffff;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+.iframe-container {
+  flex: 1;
+}
+
+
+.iframe-container iframe {
+  width: 100%;
+  height: 400px;
+}
+
+
+.box {
+  flex: 1;
+  margin-left: 20px;
+}
+
+
+.read-only-text {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #134812;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Copperplate';
+  color: #ffffff;
+  background-image: url("images/block.png");
+  text-align: center;
+}
